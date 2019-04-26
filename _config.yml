@@ -1,7 +1,7 @@
 version: 2.1.3
 url: https://qutang.github.io/cutie/
 logo: /images/favicon.png
-slogan: 聆听,智慧的声音！
+slogan:
 
 global:
   comment_system: valine # disqus, valine, gitment
@@ -21,7 +21,7 @@ post:
   use_lightgallery: true
   allow_comment: true
   toc_level: 2
-  enable_unread_badge: false
+  enable_unread_badge: true
 
 changelog:
   v2.1.3:
