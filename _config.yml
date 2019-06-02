@@ -12,7 +12,7 @@ global:
   use_animation: true
 
 page_404:
-  tencent_404: false
+  tencent_404: true
 
 post:
   allow_share: true
