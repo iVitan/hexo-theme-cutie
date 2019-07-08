@@ -19,7 +19,6 @@
     <!-- Content -->
     <div class='article-content' id='article-content'>
     {{ item.content | default("No content") }}
-    {% include 'google_adsense.swig' %}
     </div>
     {% if comment %}
         {{ partial('_partial/comment-html') }}
