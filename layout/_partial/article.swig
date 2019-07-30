@@ -188,6 +188,7 @@
     {% if allow_comment %}
         <div class="article-comment" id='article-comment'>
             {{ partial('_partial/comment-html') }}
+            {% include 'google_adsense.swig' %}
         </div>
-    {% endif %}    
+    {% endif %}   
 </article>
