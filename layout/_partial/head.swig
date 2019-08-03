@@ -4,8 +4,7 @@
 
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Basic Page Needs -->
   <meta charset="utf-8">
   {% if is_home() %}
       <title>{{ config.title }}</title>
@@ -78,9 +77,10 @@ crossorigin="anonymous"></script>
   {% elseif comment_system === 'gitment' %}
     {{ partial('_third_party/gitment_head') }}
   {% endif %}
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="/images/favicon.png">
+  
+  <!-- Google Adsense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
